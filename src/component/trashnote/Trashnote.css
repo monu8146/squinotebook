@@ -1,0 +1,32 @@
+.trash_note{
+    width: 40rem;
+    min-height: 15rem;
+    background-color: var(--white);
+    margin: 1rem;
+    border: none;
+    border-radius: 7px;
+    font-family: "DM Sans", sans-serif;
+}
+.trashnote_title {
+    padding: 1rem;
+  }
+  .trashnote_title h3 {
+    font-size: 2rem;
+  }
+  .trash_note p {
+    font-size: 1.6rem;
+    font-family: inherit;
+    margin: 1rem;
+  }
+  .trash_btns{
+    display:flex;
+    justify-content:flex-start;
+    align-items:center;
+    padding:1rem;
+    font-size:2.5rem;
+    cursor: pointer;
+    color:var(--gray);
+  }
+  .restore_btn{
+    margin-left:1.5rem;
+  }

@@ -1,0 +1,23 @@
+.filter {
+  width: 30rem;
+  height: 30rem;
+  background-color: var(--white);
+  position: absolute;
+  top: 4rem;
+  left: 33%;
+  z-index: 15;
+  border: 1px solid var(--gray);
+}
+.filter h3 {
+  font-size: 2rem;
+  margin: 1rem;
+}
+.label_filter {
+  display: block;
+  font-size: 2rem;
+  position: relative;
+  margin: 1rem;
+}
+.label_filter input {
+  margin-right: 1rem;
+}

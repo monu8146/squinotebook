@@ -1,0 +1,46 @@
+.side_bar {
+  width: 20rem;
+  height: 50rem;
+  font-family: "Poppins", sans-serif;
+  position:fixed;
+  background-color:var(--white);
+}
+.side_bar ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+}
+.side_bar a{
+  text-decoration:none;
+}
+.side_bar ul li {
+  width: 10rem;
+  height: 5rem;
+  list-style: none;
+  font-size: 1.8rem;
+  color: var(--black);
+  text-align: left;
+  font-family: inherit;
+  display: flex;
+  justify-content:flex-start;
+  align-items: center;
+  cursor: pointer;
+  font-weight:700;
+}
+.side_bar ul li p{
+    font-size:1.5rem;
+    margin-left:1rem;
+}
+.side_bar button {
+  padding: 7px 1rem;
+  font-size: 1.4rem;
+  font-family: inherit;
+  border: none;
+  background-color: var(--primarycolor);
+  color: var(--white);
+  border-radius: 7px;
+  cursor: pointer;
+  margin-top:3rem;
+}

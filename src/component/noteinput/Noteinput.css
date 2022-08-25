@@ -1,0 +1,58 @@
+.take_note_area {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.take_note {
+  width: 35rem;
+  border: none;
+  margin: 2rem;
+  background-color: var(--white);
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  font-family: "DM Sans", sans-serif;
+}
+.take_note input {
+  width: 90%;
+  height: 3rem;
+  margin: 1rem;
+  border: none;
+  font-size: 2rem;
+  font-family: inherit;
+  outline: none;
+}
+.take_note textarea {
+  width: 90%;
+  height: 10rem;
+  outline: none;
+  border: none;
+  font-size: 1.8rem;
+  font-family: inherit;
+}
+.take_note button {
+  width: 90%;
+  height: 35px;
+  border: none;
+  margin: 10px;
+  background-color: var(--primarycolor);
+  color: var(--white);
+  font-size: 1.5rem;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.close {
+  width: 100%;
+  height: 4rem;
+  font-size: 3.5rem;
+  cursor: pointer;
+  position: relative;
+  color: var(--primarycolor);
+}
+.close_btn {
+  position: absolute;
+  top: 0;
+  right: 0;
+}

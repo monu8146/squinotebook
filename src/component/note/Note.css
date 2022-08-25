@@ -1,0 +1,103 @@
+.note {
+  width: 40rem;
+  min-height: 10rem;
+  background-color: var(--white);
+  margin: 1rem;
+  border: none;
+  border-radius: 7px;
+  font-family: "DM Sans", sans-serif;
+  position: relative;
+}
+.note_title {
+  padding: 1rem;
+}
+.note_title h3 {
+  font-size: 2rem;
+}
+.note p {
+  font-size: 1.6rem;
+  font-family: inherit;
+  margin: 1rem;
+}
+.icons {
+  width: 100%;
+  height: 4rem;
+  border-top: 1.5px solid var(--gray);
+  cursor: pointer;
+  position: relative;
+  font-size: 2.5rem;
+  color: var(--gray);
+}
+.archive_btn {
+  position: absolute;
+  top: 1rem;
+  right: 3.5rem;
+}
+.color_btn {
+  position: absolute;
+  top: 1rem;
+  right: 7rem;
+}
+.delete_btn {
+  position: absolute;
+  top: 1rem;
+  right: 0;
+}
+.icons p {
+  font-size: 1.4rem;
+  color: var(--black);
+  margin-left: 2rem;
+}
+.label_btn {
+  position: absolute;
+  top: 1rem;
+  right: 10.5rem;
+}
+.pin_btn {
+  position: absolute;
+  top: 1rem;
+  right: 0;
+  font-size: 2.5rem;
+  cursor: pointer;
+}
+.label_input {
+  width: 13rem;
+  height: 10rem;
+  background-color: var(--white);
+  position: absolute;
+  bottom: 0;
+  right: 13rem;
+  border: none;
+  border-radius: 5px;
+  z-index: 10;
+}
+
+.label_input input {
+  width: 90%;
+  height: 2rem;
+  border: none;
+  outline: none;
+  padding-left: 5px;
+  font-size: 1.4rem;
+}
+.label_input button {
+  padding: 5px 1rem;
+  background-color: var(--primarycolor);
+  color: var(--white);
+  border: none;
+  border-radius: 6px;
+  margin-left: 1rem;
+  cursor: pointer;
+}
+.note_label {
+  font-size: 1.3rem;
+  font-weight: 600;
+  width: 7rem;
+  text-align: center;
+  padding: 5px;
+  color: var(--black);
+  border: 1.5px solid var(--primarycolor);
+  border-radius: 7px;
+  margin: 5px;
+  background-color: var(--lightprimarycolor);
+}
